@@ -36,9 +36,9 @@ jobs:
 
         - name: build docker image
           run: |
-           docker build -t francis664/java-gh:latest .
+           docker build -t francis644/java-gh:latest .
 
         - name: tag and push to docker hub     
           run: |
-           docker push francis664/java-gh:latest
+           docker push francis644/java-gh:latest
            
